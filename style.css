@@ -4,18 +4,25 @@ body {
   padding: 0;
 }
 h1 {
-  font-size: 50px;
+  font-size: 35px;
+}
+p {
+  color: #696969;
+  text-align: justify;
+  padding-right: 14px;
 }
 .orange-color {
   color: orange;
 }
 section {
-  display: flex;
   margin-bottom: 150px;
+}
+.flexible-container {
+  display: flex;
 }
 .half-width {
   width: 50%;
-  padding-left: 7%;
+  padding-left: 5%;
 }
 .half-width img {
   width: 80%;
@@ -35,4 +42,31 @@ section {
   background-image: url(./images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.experiences-area {
+  background-image: url(./images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.experience-item {
+  width: 50%;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 4px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+#full-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(231, 88, 72), salmon);
+  border-image-slice: 100;
+}
+#baby-web {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+.footer-pera {
+  text-align: center;
 }
